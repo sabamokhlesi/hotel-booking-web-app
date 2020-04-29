@@ -196,7 +196,7 @@
         margin-right: 2rem;
         fill: currentColor;
         @media only screen and (max-width: $bp-smaller) {
-            margin-right: 1rem; 
+            margin-right: .5rem; 
             width: 1.25rem;
             height: 1.25rem;
         }
@@ -267,6 +267,10 @@
         height: 1.75rem;
         width: 1.75rem;
         fill: var(--color-primary);
+        @media only screen and (max-width: $bp-smaller) {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
         &-location{
             height: 2rem;
             width: 2rem;
@@ -392,6 +396,9 @@
             border-radius: 50%;
             border: 3px solid white;
             margin-left: -2rem;
+            @media only screen and (max-width: $bp-smaller) {
+                margin-left: -2.25rem;
+            }
         }
     }
     &-users-recommend{
