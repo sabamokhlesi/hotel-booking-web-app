@@ -41,9 +41,6 @@ html {
   @media only screen and (max-width: 68.75em) {
     html {
       font-size: 50%; } }
-  @media only screen and (max-width: 23.125em) {
-    html {
-      font-size: 40%; } }
 
 body {
   font-weight: 400;
@@ -246,17 +243,18 @@ body {
     @media only screen and (max-width: 28em) {
       .overview-heading {
         word-spacing: 0;
-        padding: 1rem;
+        padding: 1rem .5rem;
         font-size: 2rem;
         margin-right: auto; } }
   .overview-stars {
     display: flex;
     align-items: stretch;
     margin-right: auto; }
-    @media only screen and (max-width: 26.6em) {
+    @media only screen and (max-width: 28em) {
       .overview-stars {
         order: 1;
-        margin: -4rem 0 0 1.5rem; } }
+        width: 100%;
+        margin: -4rem 0 0 2rem; } }
   .overview-icon {
     height: 1.75rem;
     width: 1.75rem;
@@ -270,7 +268,7 @@ body {
     padding: 2.5rem; }
     @media only screen and (max-width: 28em) {
       .overview-location {
-        padding: 1rem 2.5rem; } }
+        padding: 1rem 1rem; } }
   .overview-rating {
     align-self: stretch;
     display: flex;
@@ -282,7 +280,7 @@ body {
     padding: 0 2rem; }
     @media only screen and (max-width: 28em) {
       .overview-rating {
-        padding: 2rem; } }
+        padding: 2rem 1.5rem; } }
     .overview-rating-count {
       font-size: .9rem;
       text-transform: uppercase; }
