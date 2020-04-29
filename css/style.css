@@ -268,7 +268,7 @@ body {
     padding: 2.5rem; }
     @media only screen and (max-width: 28em) {
       .overview-location {
-        padding: 1rem 1rem; } }
+        padding: 1rem 1.7rem 1rem 0; } }
   .overview-rating {
     align-self: stretch;
     display: flex;
